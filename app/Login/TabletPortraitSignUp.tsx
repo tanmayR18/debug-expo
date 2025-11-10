@@ -1,5 +1,5 @@
 import React from "react";
-import { TextInput, View } from "react-native";
+import { Text, TextInput, View } from "react-native";
 
 type Props = {};
 
@@ -10,8 +10,10 @@ const TabletPortraitSignUp = (props: Props) => {
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
+        backgroundColor: "#ccc",
       }}
     >
+      <Text style={{ color: "black" }}>Tablet Portrait Signup</Text>
       <TextInput placeholder=" enter something" />
     </View>
   );
